@@ -168,7 +168,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <a 
-            href="https://wa.me/6281234567890?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
+            href="https://wa.me/6283167987800?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
             className="hidden md:flex items-center gap-2 bg-accent hover:bg-accent-dark text-white px-5 py-2.5 rounded-xl text-sm font-medium transition-colors"
           >
             Konsultasi Gratis <ArrowRight size={16} />
@@ -198,7 +198,7 @@ const Navbar = () => {
               <a href="#harga" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium">Harga</a>
               <a href="#faq" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium">FAQ</a>
               <a 
-                href="https://wa.me/6281234567890?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
+                href="https://wa.me/6283167987800?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
                 className="flex items-center justify-center gap-2 bg-accent text-white py-3 rounded-xl font-medium"
               >
                 Konsultasi Gratis <ArrowRight size={16} />
@@ -247,7 +247,7 @@ const Hero = () => {
             className="flex flex-wrap gap-4"
           >
             <a 
-              href="https://wa.me/6281234567890?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
+              href="https://wa.me/6283167987800?text=Halo%20SkinGlow%2C%20saya%20mau%20konsultasi%20gratis"
               className="bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-xl font-medium transition-all shadow-lg shadow-accent/20 flex items-center gap-2"
             >
               Konsultasi Gratis <ArrowRight size={20} />
@@ -371,7 +371,7 @@ const SkinGoalFinder = () => {
                 <div className="flex flex-col md:flex-row items-center gap-6">
                   <span className="text-2xl font-bold text-accent">{goals.find(g => g.id === activeGoal)?.product.price}</span>
                   <a 
-                    href={`https://wa.me/6281234567890?text=Halo%20SkinGlow%2C%20saya%20mau%20beli%20${goals.find(g => g.id === activeGoal)?.product.name}`}
+                    href={`https://wa.me/6283167987800?text=Halo%20SkinGlow%2C%20saya%20mau%20beli%20${goals.find(g => g.id === activeGoal)?.product.name}`}
                     className="bg-accent hover:bg-accent-dark text-white px-8 py-3 rounded-xl font-medium transition-colors flex items-center gap-2"
                   >
                     Beli via WhatsApp <ArrowRight size={18} />
@@ -541,7 +541,7 @@ const Pricing = () => {
                 ))}
               </ul>
               <a 
-                href={`https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20paket%20${tier.name}%20Landing%20Page`}
+                href={`https://wa.me/6283167987800?text=Halo%2C%20saya%20tertarik%20paket%20${tier.name}%20Landing%20Page`}
                 className={`w-full py-4 rounded-xl font-medium text-center transition-colors ${
                   tier.popular 
                   ? 'bg-accent hover:bg-accent-dark text-white' 
@@ -633,7 +633,7 @@ const CTABanner = () => {
           transition={{ delay: 0.3 }}
         >
           <a 
-            href="https://wa.me/6281234567890?text=Halo%20SkinGlow%2C%20saya%20mau%20mulai%20konsultasi"
+            href="https://wa.me/6283167987800?text=Halo%20SkinGlow%2C%20saya%20mau%20mulai%20konsultasi"
             className="inline-flex items-center gap-3 bg-accent hover:bg-accent-dark text-white px-10 py-5 rounded-full text-lg font-medium transition-all shadow-xl shadow-accent/20"
           >
             Mulai Konsultasi via WhatsApp <ArrowRight size={22} />
@@ -683,7 +683,7 @@ const Footer = () => {
         </div>
         <div className="pt-8 border-t border-white/10 text-xs text-white/30 flex flex-col md:flex-row justify-between gap-4">
           <div>© 2025 SkinGlow. All rights reserved.</div>
-          <div>Designed by Astmay</div>
+          <div>Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-white/50 hover:text-white transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></div>
         </div>
       </div>
     </footer>

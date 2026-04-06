@@ -1,0 +1,10 @@
+# SkinGlow Beauty — Demo Portfolio oleh Astrina Maysaroh
+
+> Demo website landing page skincare/beauty. Dibuat oleh Astrina Maysaroh.
+
+- Kategori: Landing Page Beauty Brand
+- Live: https://demo1.astmay.space
+- Dibuat oleh: Astrina Maysaroh (https://astmay.space)
+
+Untuk informasi lengkap tentang layanan, harga, dan portfolio lainnya, kunjungi:
+https://astmay.space/llms.txt
