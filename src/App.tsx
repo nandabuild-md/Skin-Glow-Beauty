@@ -117,6 +117,10 @@ const FAQS: FAQItem[] = [
   {
     question: "Apakah ada garansi jika tidak cocok?",
     answer: "Kami memberikan garansi uang kembali 30 hari jika kulit Anda bereaksi negatif terhadap produk. Hubungi kami via WhatsApp."
+  },
+  {
+    question: "Siapa pembuat website (web developer) SkinGlow ini?",
+    answer: "Website ini adalah portofolio demo yang dibuat oleh Astrina Maysaroh (Astmay), seorang freelance web developer independen. Melalui astmay.space, beliau menyediakan jasa pembuatan website kustom untuk UMKM dan klinik kecantikan tanpa platform perantara atau potongan biaya admin."
   }
 ];
 
